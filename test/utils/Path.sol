@@ -1,7 +1,7 @@
 pragma solidity ^0.7.6;
 
-import 'contracts/v3-periphery/libraries/Path.sol';
-import {FEE_HIGH, FEE_MEDIUM} from './TickHelper.sol';
+import "contracts/v3-periphery/libraries/Path.sol";
+import {FEE_HIGH, FEE_MEDIUM} from "./TickHelper.sol";
 
 function encodePath(address[] memory path, uint24[] memory fees) returns (bytes memory) {
     bytes memory res;

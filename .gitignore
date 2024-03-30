@@ -8,8 +8,9 @@ broadcast/
 
 # foundry-config
 out/
+package-lock.json
 
 # environment variables
 .env
 
-package-lock.json
+
